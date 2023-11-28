@@ -1,0 +1,16 @@
+{
+    "name": "trabalho/servicofacil",
+    "description": "Projeto Serviço Fácil com integração ao banco de dados e orientação a objeto",
+    "autoload": {
+        "psr-4": {
+            "Servicofacil\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cardozog",
+            "email": "cardozoguilherme18@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,197 @@
+body {
+  font-family: courier, arial, helvetica !important;
+  
+}
+
+
+.titulo {
+  text-align: center;
+  font-size: 36px !important;
+  font-weight: bolder !important;
+}
+
+.navegacao {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  
+}
+
+.navegacao-nome {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navegacao a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  color: white;
+  background: black;
+}
+
+/* RODAPÉ */
+#rodape {
+  border-top: solid 1px;
+  margin-top: 20px;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#rodape thead {
+  font-weight: bold !important;
+  text-align: center;
+}
+
+#rodape tr {
+  text-align: center;
+  width: 80%;
+}
+
+#rodape a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+}
+
+#rodape a:hover {
+  color: white;
+  background: black;
+}
+
+/*FINAL RODAPÉ*/
+
+/*TELA DE LOGIN*/
+.secao-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-entrar {
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+  padding-top: 20px;
+  font-size: 25px;
+  width: 40%;
+}
+
+.tabela-inicio tr td {
+  text-align: center;
+  width: fit-content;
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+.inputs {
+  font-family: courier, arial, helvetica;
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+  border: solid 1px;
+
+}
+
+.subtitulo {
+  font-weight: bold;
+  align-self: center;
+}
+
+.msg-erro {
+  color: red;
+}
+
+.sucesso{
+  color:green;
+  font-weight: bolder;
+}
+
+input[type="submit"] {
+  font-size: 30px;
+  height: 6vh;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: black;
+  color: white;
+}
+
+input[type="submit"]:active {
+  background: white;
+  color: black;
+}
+
+.link-cadastro {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+form>ul>li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+/*FINAL DA TELA DE LOGIN*/
+
+/*Painel do Prestador*/
+.info {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+/*Tela Avaliar Prestador*/
+input[type=text] {
+  height: 50px;
+}
+
+
+/*Tela de apresentação*/
+
+.lista-servicos {
+  list-style-type: none;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.servicos-lista{
+  margin: 10px;
+
+}
+
+.imagem-servico {
+  height: 15rem;
+  width: auto;
+  object-fit: cover;
+}
+.fundo-logo{
+  width: 100%;
+  background-color: #F8F8F8;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.logo-apresentacao {
+  width: auto;
+}
